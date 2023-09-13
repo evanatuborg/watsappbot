@@ -47,11 +47,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = '𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁'
+global.botname = 'COLONELBLAC'
 global.premium = 'true'
-global.packname = '𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁🎯𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝚄𝚁𝙴𝚂𝙷☘️' 
+global.packname = 'COLONELBLAC☘️' 
 global.author = 'ABHISHEK SURESH' 
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/abhishek_ser\n' 
+global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/colonelblac\n' 
 global.dygp = 'https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD'
 global.fgsc = 'https://github.com/AbhishekSuresh2/ABHISHEK-SER' 
 global.fgyt = 'https://youtube.com/@comedymelodych8468'
