@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix, command}) => {
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `❌ The User Is Not Found In My Database`
-let pp = './Abhi.jpg'
+let pp = './Aji.jpg'
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
@@ -170,43 +170,6 @@ ${readMore}
 │ _${usedPrefix}slow_
 ╰─────────────⦁
 
-╭───❮ *𝙰𝙽𝙸𝙼𝙴 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}waifu_
-│ _${usedPrefix}neko_
-│ _${usedPrefix}loli_
-│ _${usedPrefix}naruto_
-│ _${usedPrefix}itachi_
-│ _${usedPrefix}akira_
-│ _${usedPrefix}asuna_
-│ _${usedPrefix}akiyama_
-│ _${usedPrefix}boruto_
-│ _${usedPrefix}hornycard_
-│ _${usedPrefix}ayuzawa_
-│ _${usedPrefix}anna_
-│ _${usedPrefix}chiho_
-│ _${usedPrefix}chitoge_
-│ _${usedPrefix}deidara_
-│ _${usedPrefix}erza_
-│ _${usedPrefix}elaina_
-│ _${usedPrefix}emilia_
-│ _${usedPrefix}hestia_
-│ _${usedPrefix}hinata_
-│ _${usedPrefix}inori_
-│ _${usedPrefix}isuzu_
-│ _${usedPrefix}kagura_
-│ _${usedPrefix}kaori_
-│ _${usedPrefix}keneki_
-│ _${usedPrefix}kurumi_
-│ _${usedPrefix}madara_
-│ _${usedPrefix}mikasa_
-│ _${usedPrefix}miku_
-│ _${usedPrefix}minato_
-│ _${usedPrefix}nezuko_
-│ _${usedPrefix}sagiri_
-│ _${usedPrefix}sasuke_
-│ _${usedPrefix}sakura_
-│ _${usedPrefix}kotori_
-╰─────────────⦁
 
 ╭───❮ *𝙶𝙰𝙼𝙴 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}tictactoe_
@@ -252,16 +215,9 @@ ${readMore}
 │ _${usedPrefix}technews_
 ╰─────────────⦁
 
-╭───❮ *𝙽𝚂𝙵𝚆 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}on nsfw_
-│ _${usedPrefix}off nsfw_
-│ _${usedPrefix}hentais *text*_
-│ _${usedPrefix}xnxxdl *link*_
-╰────────────⦁
-
-╭───❮  *🎯𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁* ❯
+╭───❮  *❚█══ESABELLA══█❚* ❯
 │      𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈
-│   𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷☘️
+│  COLONEL☘️
 ╰────────────⦁`  
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
 m.react('📃')
