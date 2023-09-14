@@ -39,8 +39,8 @@ let str = `
 │ *Bot Info🤖*
 ╰────────────⦁
 │ *Bot Name* : ${botname}
-│ *Owner Name* : ${author}
-│ *Developer Name* : 𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷
+│ *Owner Name* : COLONELBLAC
+│ *Developer Name* : COLONELBLAC
 │ *Platform* : linux
 │ *Uptime* : ${uptime}
 │ *Experience:* ${exp}
